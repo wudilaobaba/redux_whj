@@ -1,10 +1,10 @@
 import React from "react";
 import {connect} from 'react-redux'
 import {bindActionCreators, Dispatch} from 'redux'
-import {CounterState, Counter} from '../../store/types/counter'
+import {CounterState, CounterProps,CounterReducer} from '../../store/types/counter'
 import * as counter from '../../store/actions/counter.action'
 
-export const Home = (props: Counter) => {
+export const Home = (props: CounterProps) => {
   return (
     <div>
       <button onClick={()=>props.add(3)}>+</button>
@@ -13,8 +13,8 @@ export const Home = (props: Counter) => {
     </div>
   )
 }
-const mapStateToProps = (state: CounterState): CounterState => ({
-  count: state.count,
+const mapStateToProps = (state: CounterReducer): CounterState => ({
+  count: state.counterReducer.count,
 })
 
 
