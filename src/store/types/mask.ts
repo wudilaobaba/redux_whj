@@ -1,5 +1,4 @@
 import {DispatchFun} from './common'
-import {CounterProps} from "./counter";
 export type MaskState = {
   show: boolean,
 }

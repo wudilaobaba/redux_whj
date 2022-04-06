@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a16b16c-81d7-4516-bd11-797447de96f3" name="Changes" comment="" />
+    <list default="true" id="9a16b16c-81d7-4516-bd11-797447de96f3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/store/middleware/logger.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/Mask/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Mask/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/mask.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/mask.reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/types/mask.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/types/mask.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1649214160187</updated>
       <workItem from="1649214162328" duration="11418000" />
-      <workItem from="1649236939301" duration="4719000" />
+      <workItem from="1649236939301" duration="8143000" />
     </task>
     <servers />
   </component>
@@ -93,9 +100,17 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="374" y="207" width="692" height="486" key="find.popup" timestamp="1649238191681">
+    <state x="333" y="47" key="CommitChangelistDialog2" timestamp="1649246086396">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="374" y="207" width="692" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1649238191681" />
+    <state x="333" y="47" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1649246086396" />
+    <state x="374" y="207" width="692" height="486" key="find.popup" timestamp="1649246661617">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="374" y="207" width="692" height="486" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1649246661617" />
+    <state x="385" y="196" key="search.everywhere.popup" timestamp="1649246059068">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1649246059068" />
   </component>
 </project>
