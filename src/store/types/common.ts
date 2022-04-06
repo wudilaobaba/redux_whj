@@ -1,0 +1,1 @@
+export type DispatchFun<T> = (payload: T) => { type: string, payload: T }
