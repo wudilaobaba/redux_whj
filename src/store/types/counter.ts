@@ -8,6 +8,7 @@ type CounterDispatch = {
   add: DispatchFun<number>,
   jian: DispatchFun<number>,
   add_async: (data: number) => (dispatch: Dispatch) => void
+  add_saga:DispatchFun<number>
 }
 
 export type CounterProps = CounterState & CounterDispatch

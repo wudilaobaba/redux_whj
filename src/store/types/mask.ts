@@ -8,6 +8,7 @@ type MaskDispatch = {
   showMask: DispatchFun<boolean>,
   hideMask: DispatchFun<boolean>,
   show_async: (data: boolean) => (dispatch: Dispatch) => void
+  show_saga: DispatchFun<boolean>,
 }
 
 export type MaskProps = MaskState & MaskDispatch

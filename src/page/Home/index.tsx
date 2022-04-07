@@ -7,7 +7,7 @@ import * as counter from '../../store/actions/counter.action'
 export const Home = (props: CounterProps) => {
   return (
     <div>
-      <button onClick={()=>props.add_async(234)}>+</button>
+      <button onClick={()=>props.add_saga(22)}>+</button>
       {props.count}
       <button onClick={()=>props.jian(3)}>-</button>
     </div>
