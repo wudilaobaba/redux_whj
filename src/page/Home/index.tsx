@@ -1,17 +1,21 @@
-import React from "react";
-import {addTodo, TODOS, DataType} from '../../store/todo.slice'
+import React,{useEffect} from "react";
+import {addTodo, loadTodos, selectTodos} from '../../store/todo.slice'
 import {add,jian, COUNTER, CounterType} from '../../store/counter.slice'
 import {useSelector,useDispatch} from 'react-redux'
 
-export const Home = (props: any) => {
+export const Home = () => {
   const dispatch = useDispatch()
-  const todos: DataType[] = useSelector(state=>(state as any)[TODOS])
-  const num: CounterType = useSelector(state => (state as any)[COUNTER])
+  useEffect(()=>{
+    dispatch(loadTodos('https://api.github.com/orgs/lagoufed/repos'))
+  },[])
+
+  const todos = useSelector(selectTodos)
+  const num = useSelector(state => (state as any)[COUNTER])
   return (
     <div>
       <button onClick={()=>dispatch(addTodo({title:"测试"}))}>增加todo</button>
       {
-        todos.map((item,index)=><h1 key={index}>{item.id}</h1>)
+        todos.map((item:any,index)=><h1 key={index}>{item.id}</h1>)
       }
       <br/>
       <button onClick={()=>dispatch(add(3))}>+</button>

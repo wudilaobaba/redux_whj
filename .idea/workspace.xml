@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a16b16c-81d7-4516-bd11-797447de96f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/store/counter.slice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/todo.slice.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/page/Home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Home/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/Mask/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/Mask/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/counter.action.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/mask.action.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/const/counter.const.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/const/mask.const.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/middleware/logger.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/middleware/thunk.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/counter.reducer.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/mask.reducer.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/saga/counter.saga.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/saga/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/saga/mask.saga.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/types/common.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/types/counter.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/types/mask.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/todo.slice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/todo.slice.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
